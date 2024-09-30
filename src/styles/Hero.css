@@ -1,0 +1,72 @@
+.hero {
+    background-image: url("https://assets.goal.com/images/v3/bltf20eea6a1f6a679e/Salah%20Built%20Different.jpg?auto=webp&format=pjpg&width=828&quality=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+    /* top: 150px; */
+}
+
+.hero p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 50px;
+    position: absolute;
+    top: 60px;
+}
+
+/* .hero img {
+    position: absolute;
+    top: 500px;
+    width: 100px;
+    height: 100px;
+    left: 600px;
+} */
+
+.article-body {
+    height: 70vh;
+}
+.article-body p {
+    line-height: 25px;
+    font-size: 18px;
+}
+.main-article {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 100px;
+    height: 100vh;
+    gap: 90px;
+}
+.left-article {
+    height: 60vh;
+}
+.side-article {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.timer, .user, .info {
+    display: flex;
+    align-items: center; /* Aligns items to the center along the cross-axis */
+    gap: 15px;
+}
+
+.timer p, .user p, .info p {
+    margin: 0; /* Reset the margin on the <p> elements to avoid misalignment */
+}
+
+
+.material-symbols-outlined {
+    font-size: 15px;
+}
+
+.spacing {
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+
+
